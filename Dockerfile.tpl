@@ -13,15 +13,12 @@ RUN apk update \
     make \
     tar \
     python \
+    nasm \
     nodejs
 
 RUN mkdir /app
 WORKDIR /app
 VOLUME /app
-
-# Keeping package locally, since there were some issues with the most recent version
-# COPY ./nodejs-4.2.1-r0.apk /tmp/nodejs-4.2.1-r0.apk
-# RUN apk add --allow-untrusted /tmp/nodejs-4.2.1-r0.apk
 
 RUN rm -rf /tmp/* /var/cache/apk/*
 
