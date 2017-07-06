@@ -10,6 +10,7 @@ from the base image:
 ```json
 "dependencies": {
   "async": "^2.5.0",
+  "aws-sdk": "^2.81.0",
   "bluebird": "^3.5.0",
   "body-parser": "^1.17.2",
   "chrome-remote-interface": "^0.23.3",
@@ -39,7 +40,7 @@ from the base image:
   "babel-cli": "^6.24.1",
   "babel-preset-es2015": "^6.24.1",
   "babel-preset-stage-3": "^6.24.1"
-},
+}
 ```
 
 Approach can be used to create multiple Node.js service base images
