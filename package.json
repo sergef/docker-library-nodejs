@@ -27,6 +27,7 @@
     "mongoose-paginate": "^5.0.3",
     "node-cleanup": "^2.1.2",
     "response-time": "^2.3.2",
+    "s3": "^4.4.0",
     "swagger-client": "^3.0.16",
     "swagger-mongoose": "^1.1.2",
     "swagger-node-runner": "^0.7.3",
