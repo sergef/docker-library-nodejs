@@ -10,10 +10,10 @@ from the base image:
 ```json
 "dependencies": {
   "async": "^2.5.0",
-  "aws-sdk": "^2.82.0",
+  "aws-sdk": "^2.84.0",
   "bluebird": "^3.5.0",
   "body-parser": "^1.17.2",
-  "chrome-remote-interface": "^0.24.1",
+  "chrome-remote-interface": "^0.24.2",
   "config": "^1.26.1",
   "cookie-parser": "^1.4.3",
   "express": "^4.15.3",
@@ -26,7 +26,7 @@ from the base image:
   "lodash": "^4.17.4",
   "mime-types": "^2.1.15",
   "moment": "^2.18.1",
-  "mongoose": "^4.11.1",
+  "mongoose": "^4.11.2",
   "mongoose-paginate": "^5.0.3",
   "node-cleanup": "^2.1.2",
   "response-time": "^2.3.2",
@@ -35,13 +35,16 @@ from the base image:
   "swagger-mongoose": "^1.1.2",
   "swagger-node-runner": "^0.7.3",
   "tmp": "0.0.31",
-  "validator": "^8.0.0"
+  "uuid": "^3.1.0",
+  "validator": "^8.0.0",
+  "yn": "^2.0.0"
 },
 "devDependencies": {
   "babel-cli": "^6.24.1",
   "babel-preset-es2015": "^6.24.1",
   "babel-preset-stage-3": "^6.24.1"
-}```
+}
+```
 
 Approach can be used to create multiple Node.js service base images
 with different set of dependencies organized by service roles,
