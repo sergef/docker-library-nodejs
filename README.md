@@ -13,7 +13,7 @@ from the base image:
   "aws-sdk": "^2.84.0",
   "bluebird": "^3.5.0",
   "body-parser": "^1.17.2",
-  "chrome-remote-interface": "^0.24.2",
+  "chrome-remote-interface": "^0.24.1",
   "config": "^1.26.1",
   "cookie-parser": "^1.4.3",
   "express": "^4.15.3",
