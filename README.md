@@ -11,6 +11,7 @@ from the base image:
 "dependencies": {
   "async": "^2.5.0",
   "aws-sdk": "^2.84.0",
+  "babel-runtime": "^6.23.0",
   "bluebird": "^3.5.0",
   "body-parser": "^1.17.2",
   "chrome-remote-interface": "0.24.1",
@@ -41,6 +42,7 @@ from the base image:
 },
 "devDependencies": {
   "babel-cli": "^6.24.1",
+  "babel-plugin-transform-runtime": "^6.23.0",
   "babel-preset-es2015": "^6.24.1",
   "babel-preset-stage-3": "^6.24.1"
 }
