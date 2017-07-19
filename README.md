@@ -11,6 +11,7 @@ from the base image:
 "dependencies": {
   "async": "^2.5.0",
   "aws-sdk": "^2.84.0",
+  "babel-polyfill": "^6.23.0",
   "babel-runtime": "^6.23.0",
   "bluebird": "^3.5.0",
   "body-parser": "^1.17.2",
