@@ -1,4 +1,4 @@
-FROM sergef/docker-library-alpine:3.6
+FROM sergef/docker-library-alpine:edge
 
 COPY scripts /scripts
 COPY entrypoints /entrypoints
