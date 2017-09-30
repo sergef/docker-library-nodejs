@@ -2,4 +2,4 @@
 
 set -e
 
-npm run debug
+npm run debug-brk

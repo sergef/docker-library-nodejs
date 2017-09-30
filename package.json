@@ -28,6 +28,9 @@
     "mongoose": "^4.11.2",
     "mongoose-paginate": "^5.0.3",
     "node-cleanup": "^2.1.2",
+    "promise-retry": "^1.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
     "response-time": "^2.3.2",
     "s3": "^4.4.0",
     "swagger-client": "^3.0.17",
@@ -46,8 +49,9 @@
   },
   "scripts": {
     "build": "babel . --ignore node_modules --out-dir dist --source-maps inline --copy-files",
-    "debug": "nodemon -e js,yaml --exec babel-node index.js",
+    "debug": "nodemon -e js,yaml --exec babel-node index.js --inspect=$DEBUG_PORT",
     "debug-brk": "nodemon -e js,yaml --exec babel-node index.js --debug-brk=$DEBUG_PORT",
+    "inspect-brk": "nodemon -e js,yaml --exec babel-node index.js --inspect-brk=$DEBUG_PORT",
     "start": "node dist/index.js",
     "test": "echo 'No Tests yet'"
   },

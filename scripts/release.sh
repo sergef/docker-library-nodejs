@@ -3,4 +3,4 @@
 set -e
 
 npm run --if-present=true build
-npm test
+npm run --if-present=true test
