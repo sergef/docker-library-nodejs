@@ -15,7 +15,7 @@ RUN chmod +x /scripts/*.sh \
     nodejs-npm \
   && npm install -g nodemon \
   && npm install \
-  && npm cache clean
+  && npm cache clean --force
 
 ONBUILD ARG TARGET=release
 
